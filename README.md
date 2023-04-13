@@ -279,7 +279,11 @@ kubectl create secret generic openldap --from-literal=adminpassword=adminpasswor
 k -n argocd logs deployments/oauth2-proxy
 
 kubectl port-forward service/openldap -n openldap 1389:1389   
+
 kubectl port-forward service/dex -n dex 5556:5556
+
 kubectl port-forward service/oauth2-proxy -n argocd 4180:4180
+
 kubectl port-forward service/argocd-server -n argocd 9090:80
+
 kubectl port-forward service/argocd-server-actual -n argocd 8080:8080
