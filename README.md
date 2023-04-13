@@ -187,8 +187,9 @@ The following steps correspond to the live tutorial walkthrough, which will prov
 
     Add the following entry, save, and close:
     ```
-    127.0.0.1 dex.dex
-    127.0.0.1 oauth2-proxy.pacman
+    
+    127.0.0.1 dex.dex
+    127.0.0.1 oauth2-proxy.argocd argocd-server.argocd
     ```
 ## Pac-man
 1. Install via Helm
