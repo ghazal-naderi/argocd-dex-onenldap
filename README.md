@@ -1,5 +1,20 @@
-# argocd-dex-onenldap
-this repo provide the cluster and the argocd instance with authentication with dex
+# Overview : argocd-dex-onenldap
+this repo provide the solotion to secure access to the Argocd using Oauth2-proxy, Dex and an OpenLDAP server - without requiring code changes to the ArgoCD app itself. 
+
+
+# Prerequisites #
+
+In order to complete this project, you will need an environment with the following prerequisites.
+
+
+* [(macOS Only) Homebrew](#homebrew) - Package manager used to install prereqs
+* [(Windows Only) Chocolatey](#chocolatey) - Package manager used to install prereqs
+* [git](#git) - Used to clone the Pac-Man application
+* [docker](#docker) - Container runtime
+* [EKS](#EKS) - Running a cluster Kubernetes on aws
+* [kubectl](#kubectl) - Kubernetes command-line tool
+* [helm](#helm) - Kubernetes package manager
+* [openldap](#openldap) - Used to populate OpenLDAP instance with user/group data
 
 
 
